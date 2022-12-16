@@ -1,0 +1,31 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+a {
+  color: inherit;
+  border: 1px solid Black;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 2.0px 2.0px 0px rgba(0, 0, 0, 0.865);
+    -webkit-text-stroke: .2px rgb(255, 255, 255);
+    background: rgb(124, 154, 214);
+  }
+}
