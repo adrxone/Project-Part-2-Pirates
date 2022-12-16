@@ -95,7 +95,7 @@ export default function Hobbies() {
             {(score === 0) && <> the hobby recommended would be Stamp Collecting.</>} 
             {(score === 1) && <> the hobby recommended would be Fishing.</>} 
             {(score === 2) && <> the hobby recommended would be Tourist Guide.</>} 
-            {(score === 3) && <> the hobby recommended would be Chaperon.</>} 
+            {(score === 3) && <> the hobby recommended would be Chaperone.</>} 
             {(score === 4) && <> the hobby recommended would be Foriegn Language Teacher.</>} 
             {(score === 5) && <> the hobby recommended would be Translator.</>} 
             <br/>
